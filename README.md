@@ -7,7 +7,7 @@ Trying out various maps for data visualization purposes
 
 ### Licensing
 
-For details on the license and permission requests, please see the [license file](<LINK TO LICENSE FILE>).
+For details on the license and permission requests, please see the [license file](https://github.com/tjpalanca/mapping/blob/master/LICENSE.md).
 
 ### Author Information
 
