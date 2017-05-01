@@ -174,7 +174,7 @@ philippines.gg
 
 ```
 
-## Greater Manila Area
+### Greater Manila Area
 
 ```{r}
 
@@ -201,7 +201,7 @@ gma.gg
 
 ```
 
-## Cebu
+### Cebu
 
 ```{r}
 
@@ -225,7 +225,7 @@ cebu.gg
 
 ```
 
-## Davao
+### Davao
 
 ```{r}
 
@@ -249,7 +249,7 @@ davao.gg
 
 ```
 
-## Bicol
+### Bicol
 
 ```{r}
 
