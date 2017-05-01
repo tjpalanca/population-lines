@@ -1,0 +1,40 @@
+---
+title: "Mapping Population Densities"
+author: "TJ Palanca"
+date: "1 May 2017"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    theme: "lumen"
+    highlight: "tango"
+    code_folding: hide
+---
+
+## Preliminaries
+
+### Libraries
+
+```{r}
+suppressPackageStartupMessages({
+  library(tidyverse)
+  library(stringr)
+})
+
+if (!str_detect(getwd(), "src")) setwd("src")
+```
+
+### Data Import
+
+Data is downloaded from NASA SEDAC [here](http://sedac.ciesin.columbia.edu/data/set/gpw-v4-population-density-adjusted-to-2015-unwpp-country-totals/data-download).
+
+```{r}
+
+# Unzip file
+unzip(
+  zipfile = "../dta/gpw-v4-population-density-adjusted-to-2015-unwpp-country-totals-2015.zip",
+  exdir = "../dta/gpw-v4/"
+)
+
+```
+
