@@ -9,6 +9,8 @@ output:
     theme: "lumen"
     highlight: "tango"
     code_folding: show
+    self_contained: false
+    lib_dir: libs
 ---
 
 ## Preliminaries
@@ -155,7 +157,7 @@ TROY JAMES PALANCA | TJPALANCA.COM
 
 philippines_popd.df %>% 
   plotPopulationDensityLines(
-    lat_res  = 0.06,
+    lat_res  = 0.1,
     lng_res  = 0.05,
     height   = 50,
     lwd      = 0.3,
