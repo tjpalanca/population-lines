@@ -1,9 +1,11 @@
-# Mapping
-**A general repository for mapping stuff**
+# Population Density Lines
+**Plotting population density using minimalistic lines**
+
+![Sample plot for Bicol](https://github.com/tjpalanca/population-lines/blob/master/out/05-bicol.png?raw=true)
 
 ### Summary
 
-Trying out various maps for data visualization purposes
+Taking the idea from the [Population Lines Print](http://spatial.ly/2014/08/population-lines/) by Spatial.ly / Dr James Cheshire, we plot local population density maps for the Philippines in the same style. The data is taken from the [NASA Socioeconomic Data and Applications Center (SEDAC)](http://sedac.ciesin.columbia.edu/data/set/gpw-v4-population-density-adjusted-to-2015-unwpp-country-totals/data-download).
 
 ### Licensing
 
